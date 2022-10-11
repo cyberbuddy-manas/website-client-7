@@ -1,0 +1,61 @@
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 25px;
+}
+
+header .branding {
+	width: 120px;
+	height: 100px;
+	margin-right: 80px;
+}
+
+header nav {
+	width: 60%;
+	padding: 11px 35px;
+	padding-bottom: 8px;
+	background-color: #A35233;
+	border-radius: 50px;
+	box-sizing: border-box;
+	font-family: 'Tiro Kannada';
+}
+
+header nav .active-itm {
+	text-decoration: underline;
+	text-underline-offset: 6px;
+}
+
+header nav ul {
+	display: flex;
+	list-style-type: none;
+	justify-content: space-around;
+}
+
+header nav a {
+	color: white;
+	text-decoration: none;
+	font-size: 17px;
+	transition: 0.3s;
+	letter-spacing: 0.2px;
+}
+
+header nav a:hover {
+	text-decoration: underline;
+	text-underline-offset: 6px;
+	letter-spacing: 1px;
+}
+
+header .insta-ico, header .cart-ico {
+	font-size: 29px;
+	color: #A35233;
+	transition: 0.3s;
+}
+
+header .insta-ico {
+	margin: 0 50px;
+}
+
+header .insta-ico:hover, header .cart-ico:hover {
+	color: #5b3726;
+}

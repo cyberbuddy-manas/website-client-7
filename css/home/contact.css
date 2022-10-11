@@ -1,0 +1,75 @@
+main#contact {
+    padding: 130px;
+    padding-top: 50px;
+    color: #42281C;
+}
+
+main#contact section {
+    border-radius: 8px;
+    padding: 50px 150px;
+    background-color: #F6D2AC;
+    text-align: center;
+}
+
+main#contact h1 {
+    font-size: 38px;
+    font-family: "Tiro Kannada";
+    line-height: 60px;
+}
+
+main#contact h2 {
+    font-size: 25px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 50px;
+}
+
+main#contact form {
+    display: grid;
+    gap: 30px;
+}
+
+main#contact div {
+    display: flex;
+    gap: 80px;
+}
+
+main#contact input, main#contact textarea {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 100;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+}
+
+main#contact input {
+    width: 100%;   
+}
+
+main#contact input::placeholder, main#contact textarea::placeholder {
+    font-family: 'Tiro Kannada';
+    opacity: 0.7;
+}
+
+main#contact input:focus, main#contact textarea:focus {
+    outline: none;
+}
+
+main#contact button {
+    padding: 5px 100px;
+    margin: auto;
+    font-family: 'Tiro Kannada';
+    font-size: 22px;
+    border-radius: 5px;
+    background-color: #A35233;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+main#contact button:hover {
+    padding: 5px 120px;
+}

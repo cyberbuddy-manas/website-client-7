@@ -1,0 +1,71 @@
+#empty {
+    text-align: center;
+    color: #42281C;
+    font-size: 27px;
+    font-weight: 100;
+    display: none;
+}
+
+i.active {
+    color: #5b3726;
+}
+
+main#items {
+    padding: 70px 80px;
+    padding-bottom: 0;
+}
+
+main#items section {
+    background-color: #F6D2AC;
+    border-radius: 15px 15px 0 0;
+    padding: 65px 140px;
+    padding-bottom: 300px;
+}
+
+main#items div.item {
+    display: flex;
+    justify-content: center;
+    padding: 30px 10%;
+    border-bottom: 3px solid #A35233;
+}
+
+div.item div:nth-child(2) {
+    margin-right: 100px;
+    margin-left: 50px;
+}
+
+div.item img {
+    width: 100px;
+    border-radius: 10px;
+}
+
+div.item h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #42281C;
+}
+
+div.item h2 {
+    font-family: 'Tiro Kannada';
+    font-size: 24px;
+    opacity: 0.6;
+    font-weight: 100;
+}
+
+div.item button {
+    padding: 10px 60px;
+    font-size: 18px;
+    font-family: 'Tiro Kannada';
+    background-color: #A35233;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    transition: 0.5s ease-out;
+}
+
+div.item button:hover {
+    background-color: #8c3e1d;
+    padding: 10px 70px;
+    cursor: pointer;
+}

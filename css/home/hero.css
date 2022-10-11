@@ -1,0 +1,72 @@
+main#hero {
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+}
+
+main#hero section {
+    width: 75%;
+    display: flex;
+    background-color: #F6D2AC;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+main#hero div {
+    padding: 50px 5%;
+    text-align: center;
+}
+
+main#hero div:nth-child(1) {
+    width: 40%;
+    background-image: url("../../assets/hero1-bg.png");
+    display: flex;
+    align-items: center;
+}
+
+main#hero .hero-img {
+    width: 100%;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+main#hero .hero-img:hover {
+    filter: brightness(1.1) saturate(1.2);
+    scale: 1.05;
+}
+
+main#hero div:nth-child(2) {
+    width: 55%;
+    padding: 120px 60px;
+}
+
+main#hero h1 {
+    font-size: 38px;
+    font-weight: 500;
+    color: #42281C;
+    margin-bottom: 17px;
+    line-height: 60px;
+}
+
+main#hero h2 {
+    color: rgba(66, 40, 28, 0.8);
+    font-weight: 500;
+    font-size: 27px;
+}
+
+main#hero button.label {
+    padding: 9px 35px;
+    border: none;
+    background-color: #A35233;
+    color: white;
+    font-size: 22px;
+    font-family: "Tori Kannada";
+    font-weight: 100;
+    border-radius: 8px;
+    margin-top: 30px;
+    transition: 0.3s;
+}
+
+main#hero button.label:hover {
+    color: wheat;
+}

@@ -1,0 +1,27 @@
+main#services  {
+    padding: 20px 120px;
+    padding-bottom: 100px;
+    display: grid;
+    place-items: center;
+}
+
+main#services section {
+    background-color: #A35233;
+    border-radius: 20px;
+    padding: 20px;
+    display: grid;
+    place-items: center;
+}
+
+main#services div {
+    background-color: #F6D2AC;
+    border-radius: 20px;
+    padding: 20px;
+    display: grid;
+    place-items: center;
+}
+
+main#services img {
+    width: 550px;
+    border-radius: 30px;
+}

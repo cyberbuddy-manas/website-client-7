@@ -1,0 +1,77 @@
+main#insta-wall {
+    padding: 40px 0;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+main#insta-wall h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    color: #42281C;
+    line-height: 50px;
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+main#insta-wall h1 a {
+    color: inherit;
+    font-size: 45px;
+    transition: 0.3s;
+}
+
+main#insta-wall h1 a:hover {
+    color: black;
+    transform: translateY(-5px);
+}
+
+main#insta-wall h2 {
+    text-align: center;
+    font-size: 26px;
+    letter-spacing: 2.6px;
+    font-weight: 700;
+    text-indent: -40px;
+}
+
+main#insta-wall h2 a {
+    color: #42281C;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+main#insta-wall h2 a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+main#insta-wall section {
+    padding: 50px 10%;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+main#insta-wall section div {
+    width: 33%;
+}
+
+main#insta-wall section img {
+    width: 100%;
+    transition: 0.3s;
+}
+
+main#insta-wall section img:hover {
+    transform: translateY(-10px);
+    filter: drop-shadow(10px 10px 12px rgba(0, 0, 0, 0.1));
+}
+
+main#insta-wall .img-row1 {
+    margin-top: 130px;
+}
+
+main#insta-wall .img-row3 {
+    margin-top: 30px;
+}
