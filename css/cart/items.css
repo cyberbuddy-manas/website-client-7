@@ -69,3 +69,94 @@ div.item button:hover {
     padding: 10px 70px;
     cursor: pointer;
 }
+
+@media (max-width: 1433px) {
+    main#items section {
+        padding: 65px 5%;
+        padding-bottom: 300px;
+    }
+}
+
+@media (max-width: 1266px) {
+    main#items div.item {
+        padding: 25px 2%;
+    }
+}
+
+@media (max-width: 1130px) {
+    div.item div:nth-child(2) {
+        margin-right: 50px;
+        margin-left: 35px;
+    }
+
+    main#items section {
+        padding: 35px 5%;
+        padding-bottom: 200px;
+    }
+
+    div.item h1 {
+        font-size: 24px;
+    }
+
+    div.item h2 {
+        font-size: 20px;
+    }
+
+    div.item button {
+        padding: 6px 40px;
+        font-size: 16px;
+    }
+
+    div.item button:hover {
+        padding: 6px 50px;
+    }
+}
+
+@media (max-width: 920px) {
+    div.item div:nth-child(2) {
+        margin-right: 20px;
+        width: 200px;
+    }
+
+    div.item button {
+        padding: 5px 30px;
+        font-size: 14px;
+    }
+
+    div.item button:hover {
+        padding: 6px 38px;
+    }
+}
+
+@media (max-width: 740px) {
+    main#items div.item {
+        flex-wrap: wrap;
+        row-gap: 20px;
+        column-gap: 15px;
+    }
+
+    div.item div:nth-child(2) {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 575px) {
+    main#items {
+        padding: 50px 30px;
+        padding-bottom: 0;
+    }
+
+    main#items div.item {
+        padding: 40px 5%;
+        text-align: center;
+    }
+
+    div.item img {
+        width: 150px;
+    }
+
+    div.item div:nth-child(2) {
+        margin-left: 0;
+        width: 100%;
+    }
+}

@@ -75,3 +75,87 @@ main#insta-wall .img-row1 {
 main#insta-wall .img-row3 {
     margin-top: 30px;
 }
+
+@media (max-width: 1065px) {
+    main#insta-wall section {
+        padding: 50px 3%;
+    }
+}
+
+@media (max-width: 780px) {
+    main#insta-wall section {
+        justify-content: center;
+    }
+
+    main#insta-wall section div {
+        width: 45%;
+    }
+
+    main#insta-wall .img-row1 {
+        margin-top: 30px;
+    }
+
+    main#insta-wall section div:nth-child(2) {
+        display: none;
+    }
+
+    main#insta-wall section div:nth-child(3) {
+        padding-top: 80px;
+    }
+
+    main#insta-wall .img-row3 {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 660px) {
+    main#insta-wall section {
+        flex-wrap: wrap;
+    }
+
+    main#insta-wall section div {
+        width: 300px;
+    }
+
+    main#insta-wall section div:nth-child(3) {
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 550px) {
+    main#insta-wall h1 {
+        scale: 0.9;
+        text-align: center;
+    }
+
+    main#insta-wall h2 {
+        scale: 0.9;
+    }
+}
+
+@media (max-width: 550px) {
+    main#insta-wall {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main#insta-wall h1 {
+        scale: 0.9;
+        text-align: center;
+        display: block;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    main#insta-wall h2 {
+        scale: 0.9;
+        text-indent: unset;
+    }
+}
+
+@media (max-width: 480px) {
+    main#insta-wall h2 {
+        scale: 0.8;
+    }
+}

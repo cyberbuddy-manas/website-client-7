@@ -61,3 +61,15 @@ main#products div.product button:hover {
     padding: 2px 60px;
     cursor: pointer;
 }
+
+@media (max-width: 1355px) {
+    main#products {
+        padding: 60px 50px;
+    }
+}
+
+@media (max-width: 500px) {
+    main#products {
+        padding: 60px 40px;
+    }
+}

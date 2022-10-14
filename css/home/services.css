@@ -25,3 +25,43 @@ main#services img {
     width: 550px;
     border-radius: 30px;
 }
+
+@media (max-width: 1000px) {
+    main#services img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 680px) {
+    main#services {
+        padding: 20px 10%;
+        padding-bottom: 100px;
+    }
+
+    main#services section {
+        border-radius: 15px;
+    }
+
+    main#services div {
+        border-radius: 12px;
+    }
+
+    main#services img {
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 580px) {
+    main#services {
+        padding: 20px 6%;
+        padding-bottom: 80px;
+    }
+
+    main#services section {
+        padding: 10px;
+    }
+
+    main#services div {
+        padding: 10px;
+    }
+}

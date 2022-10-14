@@ -70,3 +70,89 @@ main#hero button.label {
 main#hero button.label:hover {
     color: wheat;
 }
+
+@media (max-width: 1000px) {
+    main#hero section {
+        width: 90%;
+    }
+}
+
+@media (max-width: 840px) {
+    main#hero section {
+        width: 90%;
+    }
+
+    main#hero div:nth-child(2) {
+        padding: 80px 35px;
+    }
+}
+
+@media (max-width: 840px) {
+    main#hero div:nth-child(2) {
+        padding: 50px 35px;
+    }
+
+    main#hero h1 {
+        font-size: 33px;
+    }
+
+    main#hero h2 {
+        font-size: 23px;
+    }
+
+    main#hero button.label {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 840px) {
+    main#hero div:nth-child(1) {
+        padding: 30px 5%;
+    }
+
+    main#hero div:nth-child(2) {
+        padding: 30px 35px;
+    }
+
+    main#hero h1 {
+        font-size: 27px;
+        line-height: 40px;
+    }
+
+    main#hero h2 {
+        font-size: 20px;
+    }
+
+    main#hero button.label {
+        font-size:16px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    main#hero {
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    main#hero {
+        padding: 70px 20px;
+    }
+
+    main#hero section {
+        flex-direction: column;
+    }
+
+    main#hero div:nth-child(1) {
+        padding: 10%;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    main#hero div:nth-child(2) {
+        padding: 30px 35px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}

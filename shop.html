@@ -29,20 +29,31 @@
   </head>
   <body>
     <header>
-      <a href="./index.html"><img class="branding" src="./assets/branding.png" /></a>
+      <section>
+        <a href="./index.html"><img class="branding" src="./assets/branding.png" /></a>
+        <i class="burger fa-solid fa-bars"></i>
+      </section>
       <nav>
         <ul>
           <li><a href="./index.html">HOME</a></li>
           <li><a href="#">BOOK ONLINE</a></li>
-          <li><a href="#" class="active-itm">SHOP</a></li>
+          <li><a href="./shop.html">SHOP</a></li>
           <li><a href="#">GIFT CARD</a></li>
           <li><a href="./index.html#contact">CONTACT</a></li>
         </ul>
       </nav>
       <div>
         <a href=""><i class="insta-ico fa-brands fa-instagram"></i></a>
-        <a href="./cart.html"><i class="cart-ico fa fa-cart-shopping"></i></a>
+        <a href="./cart.html"><i class="cart-ico fa fa-cart-shopping active"></i></a>
       </div>
+      <ul class="dropdown">
+        <a href="./index.html"><li class="drop-itm1">HOME</li></a>
+        <a href="#"><li class="drop-itm2">BOOK ONLINE</li></a>
+        <a href="./shop.html"><li class="drop-itm3 active-itm">SHOP</li></a>
+        <a href="#"><li class="drop-itm4">GIFT CARD</li></a>
+        <a href="./index.html#contact"><li class="drop-itm5">CONTACT</li></a>
+        <a href="./cart.html"><li class="drop-itm6">CART</li></a>
+      </ul>
     </header>
     <main id="products">
       <div class="product">
@@ -114,5 +125,6 @@
         </section>
         <h1 class="copyright">Copyright © and Reserved | LASHWITHHAZEL</h1>
     </footer>
+    <script src="./js/nav.js"></script>
   </body>
 </html>
